@@ -1,0 +1,8 @@
+include/*
+lib/*
+lib64/*
+pip-selfcheck.json
+pyvenv.cfg
+avi.json
+bin/*
+lib64

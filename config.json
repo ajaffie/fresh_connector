@@ -1,0 +1,19 @@
+/*
+  For the subject and description, any occurrances of "%server%" (without quotes) will
+  be replaced by the name of the server. 
+
+*/
+{
+    "url": "https://XXX.freshservice.com/api/v2/",	//replace "XXX" with the appropriate url for your organization.
+    "apikey": "",					//API key of the freshdesk user the script will use.
+    "ticket_props": {					//These are going to be the base of the POST payload.
+        "email":"icinga@example.com",			//Email of the freshdesk user the script will use.
+        "source": 1,					//Desired source of ticket in freshdesk.
+        "subject": "",					//Desired subject of ticket.
+        "status": 2,					//Freshdesk status assigned to created tickets.
+	"description": "",				//Body of the ticket, has a default and can be set by command line argument as well.
+        "cc_emails": [					//Populate this with any emails you want to recieve an additional notification.
+        
+	]
+    }
+}
