@@ -110,4 +110,5 @@ def set_ticket(server, ticket=0):
     return old
 
 
-main()
+if __name__ == "__main__":
+    main()
