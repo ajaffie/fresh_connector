@@ -1,6 +1,6 @@
 {
     "url": "https://XXX.freshservice.com/api/v2/",
-    "apikey": ""
+    "apikey": "",
     "ticket_props": {
         "email":"icinga@example.com",
         "source": 1,
